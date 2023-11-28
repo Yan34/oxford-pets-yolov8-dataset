@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 37
+names: ['cat-abyssinian', 'cat-bengal', 'cat-birman', 'cat-bombay', 'cat-british_shorthair', 'cat-egyptian_mau', 'cat-maine_coon', 'cat-persian', 'cat-ragdoll', 'cat-russian_blue', 'cat-siamese', 'cat-sphynx', 'dog-american_bulldog', 'dog-american_pit_bull_terrier', 'dog-basset_hound', 'dog-beagle', 'dog-boxer', 'dog-chihuahua', 'dog-english_cocker_spaniel', 'dog-english_setter', 'dog-german_shorthaired', 'dog-great_pyrenees', 'dog-havanese', 'dog-japanese_chin', 'dog-keeshond', 'dog-leonberger', 'dog-miniature_pinscher', 'dog-newfoundland', 'dog-pomeranian', 'dog-pug', 'dog-saint_bernard', 'dog-samoyed', 'dog-scottish_terrier', 'dog-shiba_inu', 'dog-staffordshire_bull_terrier', 'dog-wheaten_terrier', 'dog-yorkshire_terrier']
+
+roboflow:
+  workspace: rdd-heop9
+  project: oxford-pets-yolo
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/rdd-heop9/oxford-pets-yolo/dataset/1
